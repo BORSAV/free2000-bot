@@ -1,10 +1,6 @@
 import os
 import telebot
 from telebot import types
-from dotenv import load_dotenv  # Optional for local testing
-
-# Load environment variables (only for local dev, ignored on Render)
-load_dotenv()
 
 # BOT SETTINGS
 BOT_TOKEN = os.getenv("BOT_TOKEN")
