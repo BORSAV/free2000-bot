@@ -1,8 +1,13 @@
+import os
 import telebot
 from telebot import types
+from dotenv import load_dotenv  # Optional for local testing
+
+# Load environment variables (only for local dev, ignored on Render)
+load_dotenv()
 
 # BOT SETTINGS
-BOT_TOKEN = '7536750397:AAH857CuHDwIqJhogT2geUfLbQ_BRny7OuA'
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_1 = '@frggix'
 CHANNEL_2 = '@fraggix_chat'
 FOLDER_LINK = 'https://t.me/addlist/urrFsU_GOpsyZGRl'
@@ -54,4 +59,3 @@ def check_done(call):
 
 # Start polling
 bot.infinity_polling()
-
