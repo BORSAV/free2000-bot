@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 
 # BOT SETTINGS
-BOT_TOKEN = '7213574149:AAH8Cp2kRBkiDtU3JsINM_vN0WjuJlgdHk4'
+BOT_TOKEN = '7536750397:AAH857CuHDwIqJhogT2geUfLbQ_BRny7OuA'
 CHANNEL_1 = '@frggix'
 CHANNEL_2 = '@fraggix_chat'
 FOLDER_LINK = 'https://t.me/addlist/urrFsU_GOpsyZGRl'
